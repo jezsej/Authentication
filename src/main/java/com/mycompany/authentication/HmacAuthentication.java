@@ -19,7 +19,7 @@ import org.apache.commons.codec.binary.Hex;
 public class HmacAuthentication {
 
     public static void main(String[] arg) throws NoSuchAlgorithmException {
-
+        //
         String originalString = "originalString";
         MessageDigest digest = MessageDigest.getInstance("SHA-256");
         byte[] encodedhash = digest.digest(
